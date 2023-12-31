@@ -11,11 +11,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from hotdog device
 $(call inherit-product, device/oneplus/hotdog/device.mk)
 
-# Inherit some common YAAP stuff.
-$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
+# Inherit some common AFTERLIFE stuff.
+$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
+
+# AfterLife Flags
+AFTERLIFE_GAPPS := true
+USE_PIXEL_CHARGING =: true
+AFTERLIFE_MAINTAINER := NILOY
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_TOUCHGESTURES := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := yaap_hotdog
+PRODUCT_NAME := afterlife_hotdog
 PRODUCT_DEVICE := hotdog
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := HD1917
@@ -32,6 +40,7 @@ PRODUCT_CHARACTERISTICS := nosdcard
 scr_resolution := 1440
 TARGET_SCREEN_HEIGHT := 3120
 TARGET_SCREEN_WIDTH := 1440
+TARGET_BOOT_ANIMATION_RES := 1440
 
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
