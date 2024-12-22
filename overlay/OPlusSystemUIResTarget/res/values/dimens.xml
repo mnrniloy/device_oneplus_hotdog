@@ -27,4 +27,29 @@
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">1250px</dimen>
 
+     <!-- Lockscreen shortcut horizontal padding. -->
+     <dimen name="keyguard_affordance_horizontal_offset">29dp</dimen>
+
+     <!-- Lockscreen shortcut style. -->
+     <dimen name="keyguard_affordance_fixed_radius">56dp</dimen>
+     <dimen name="keyguard_affordance_fixed_height">56dp</dimen>
+     <dimen name="keyguard_affordance_fixed_width">29dp</dimen>
+
+     <!-- QQS Layout. -->
+     <dimen name="qqs_layout_padding_bottom">24dp</dimen>
+     <dimen name="quick_settings_bottom_margin_media">24dp</dimen>
+     <dimen name="qqs_top_brighthess_margin_top">-14.0dip</dimen>
+     <dimen name="qqs_top_brighthess_margin_bottom">7.0dip</dimen>
+     <dimen name="qqs_bottom_brighthess_margin_bottom">-24.0dip</dimen>
+     <dimen name="qqs_bottom_brighthess_margin_top">-7.0dip</dimen>
+
+     <!-- QS Layout. -->
+     <dimen name="qs_top_brighthess_margin_bottom">20.0dip</dimen>
+     <dimen name="qs_top_brighthess_margin_top">4.0dip</dimen>
+     <dimen name="qs_bottom_brighthess_margin_bottom">16.0dip</dimen>
+     <dimen name="qs_bottom_brighthess_margin_top">-5.0dip</dimen>
+
+     <!-- QS Rising Widgets layout. -->
+     <dimen name="qs_controls_center_height">154dp</dimen>
+
 </resources>
